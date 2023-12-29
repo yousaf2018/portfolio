@@ -7,14 +7,11 @@ const Copyright = () => {
         src="assets/separator-copyright.png"
       />
       <div>
-        <span>© {new Date().getFullYear()} Steven Walker</span>
+        {/* <span>© {new Date().getFullYear()}</span> */}
         <span>
-          Designed By{" "}
-          <a
-            target="_blank"
-            href="https://themeforest.net/user/Codeefly/portfolio"
-          >
-            Codeefly
+          © {new Date().getFullYear()} -
+          <a target="_blank" href="#">
+            Bilal Bin Yar
           </a>
         </span>
         <ul>
