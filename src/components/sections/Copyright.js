@@ -9,7 +9,7 @@ const Copyright = () => {
       <div>
         {/* <span>© {new Date().getFullYear()}</span> */}
         <span>
-          © {new Date().getFullYear()} -
+          © {new Date().getFullYear()} -{' '}
           <a target="_blank" href="#">
             Bilal Bin Yar
           </a>
