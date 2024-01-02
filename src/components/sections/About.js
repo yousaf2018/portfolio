@@ -130,7 +130,7 @@ const About = () => {
             </div>
             {/* SKILL ITEM ENDS */}
             {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-down-animation fadeInLeft wow">
+            <div className="animated-layer fade-in-down-animation fadeInRight wow">
               <span>
                 <i className="devicon-mongodb-plain" />
               </span>
@@ -184,7 +184,7 @@ const About = () => {
             </div>
             {/* SKILL ITEM ENDS */}
             {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-down-animation fadeInLeft wow">
+            <div className="animated-layer fade-in-down-animation fadeInRight wow">
               <span>
                 <i className="devicon-wordpress-plain" />
               </span>
@@ -220,7 +220,7 @@ const About = () => {
             </div>
             {/* SKILL ITEM ENDS */}
             {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-down-animation fadeInLeft wow">
+            <div className="animated-layer fade-in-down-animation fadeInRight wow">
               <span>
                 <i className="devicon-firebase-plain" />
               </span>
@@ -238,7 +238,7 @@ const About = () => {
             </div>
             {/* SKILL ITEM ENDS */}
             {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-down-animation fadeInLeft wow">
+            <div className="animated-layer fade-in-down-animation fadeInRight wow">
               <span>
                 <i className="devicon-bootstrap-plain" />
               </span>
