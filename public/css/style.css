@@ -623,6 +623,7 @@ header .mobile-menu {
   object-fit: cover;
   object-position: center;
   border-radius: 24px;
+  filter: grayscale(77%);
 }
 
 .about h2 {
