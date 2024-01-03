@@ -1,11 +1,11 @@
-import { salimovSlider } from "@/src/sliderProps";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { salimovSlider } from '@/src/sliderProps';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 const Clients = () => {
   return (
     <section className="clients">
       <div className="clients-container animated-layer fade-in-right-animation fadeInUp wow">
-        <h3>My Clients</h3>
+        <h3>Certifications</h3>
         <Swiper
           {...salimovSlider.clients}
           className="swiper swiper-clients fadeInUp wow"

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link';
 const Blog = () => {
   return (
     <section className="blog main-section flex-column-mobile" id="blog">
@@ -8,7 +8,7 @@ const Blog = () => {
         <h3>
           <span>
             <span className="animated-layer fade-in-left-animation fadeInUp wow">
-              Latest Posts
+              My Music
             </span>
           </span>
         </h3>

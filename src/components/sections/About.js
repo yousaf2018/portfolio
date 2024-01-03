@@ -130,7 +130,7 @@ const About = () => {
             </div>
             {/* SKILL ITEM ENDS */}
             {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-down-animation fadeInRight wow">
+            <div className="animated-layer fade-in-up-animation fadeInRight wow">
               <span>
                 <i className="devicon-mongodb-plain" />
               </span>
@@ -184,7 +184,7 @@ const About = () => {
             </div>
             {/* SKILL ITEM ENDS */}
             {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-down-animation fadeInRight wow">
+            <div className="animated-layer fade-in-up-animation fadeInRight wow">
               <span>
                 <i className="devicon-wordpress-plain" />
               </span>
@@ -220,7 +220,7 @@ const About = () => {
             </div>
             {/* SKILL ITEM ENDS */}
             {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-down-animation fadeInRight wow">
+            <div className="animated-layer fade-in-up-animation fadeInRight wow">
               <span>
                 <i className="devicon-firebase-plain" />
               </span>
@@ -238,7 +238,7 @@ const About = () => {
             </div>
             {/* SKILL ITEM ENDS */}
             {/* SKILL ITEM STARTS */}
-            <div className="animated-layer fade-in-down-animation fadeInRight wow">
+            <div className="animated-layer fade-in-up-animation fadeInRight wow">
               <span>
                 <i className="devicon-bootstrap-plain" />
               </span>
@@ -271,14 +271,14 @@ const About = () => {
             <li>
               <div className="animated-layer fade-in-down-animation fadeInUp wow">
                 <div className="experience">
-                  <h4>Project Manager</h4>
+                  <h4>Full Stack Developer</h4>
                   <p>
                     <i className="fa-regular fa-clock" />
-                    <span>2019 - Now</span>
+                    <span>2023 - Now</span>
                   </p>
                   <p>
                     <i className="fa-regular fa-building" />
-                    <span>Adobe Company</span>
+                    <span>Neurog LLP</span>
                   </p>
                 </div>
               </div>
@@ -288,14 +288,14 @@ const About = () => {
             <li>
               <div className="animated-layer fade-in-up-animation fadeInUp wow">
                 <div className="experience">
-                  <h4>Team Leader</h4>
+                  <h4>MERN Stack Developer</h4>
                   <p>
                     <i className="fa-regular fa-clock" />
-                    <span>2015 - 2019</span>
+                    <span>2023 - 2023</span>
                   </p>
                   <p>
                     <i className="fa-regular fa-building" />
-                    <span>Twitter Inc</span>
+                    <span>BoomPlus</span>
                   </p>
                 </div>
               </div>
@@ -305,14 +305,14 @@ const About = () => {
             <li>
               <div className="animated-layer fade-in-down-animation fadeInUp wow">
                 <div className="experience">
-                  <h4>Web Developer</h4>
+                  <h4>React Developer</h4>
                   <p>
                     <i className="fa-regular fa-clock" />
-                    <span>2010 - 2015</span>
+                    <span>2022 - 2023</span>
                   </p>
                   <p>
                     <i className="fa-regular fa-building" />
-                    <span>Facebook</span>
+                    <span>Neurog LLP</span>
                   </p>
                 </div>
               </div>
@@ -321,15 +321,15 @@ const About = () => {
             {/* TIMELINE ITEM STARTS */}
             <li>
               <div className="animated-layer fade-in-up-animation fadeInUp wow">
-                <div className="education">
-                  <h4>Master Degree</h4>
+                <div className="experience">
+                  <h4>Frontend Developer</h4>
                   <p>
                     <i className="fa-regular fa-clock" />
-                    <span>2003</span>
+                    <span>2021 - 2022</span>
                   </p>
                   <p>
-                    <i className="fa-solid fa-building-columns" />
-                    <span>London University</span>
+                    <i className="fa-regular fa-building" />
+                    <span>mimAR Studios Pvt Ltd</span>
                   </p>
                 </div>
               </div>
@@ -338,15 +338,49 @@ const About = () => {
             {/* TIMELINE ITEM STARTS */}
             <li>
               <div className="animated-layer fade-in-down-animation fadeInUp wow">
-                <div className="education">
-                  <h4>Bachelor Degree</h4>
+                <div className="experience">
+                  <h4>Frontend Developer</h4>
                   <p>
                     <i className="fa-regular fa-clock" />
-                    <span>1999</span>
+                    <span>2021 - 2021</span>
                   </p>
                   <p>
-                    <i className="fa-solid fa-building-columns" />
-                    <span>Berlin High School</span>
+                    <i className="fa-regular fa-building" />
+                    <span>GS Technologies Pvt Ltd</span>
+                  </p>
+                </div>
+              </div>
+            </li>
+            {/* TIMELINE ITEM ENDS */}
+            {/* TIMELINE ITEM STARTS */}
+            <li>
+              <div className="animated-layer fade-in-up-animation fadeInUp wow">
+                <div className="experience">
+                  <h4>Frontend Developer</h4>
+                  <p>
+                    <i className="fa-regular fa-clock" />
+                    <span>2020 - 2021</span>
+                  </p>
+                  <p>
+                    <i className="fa-regular fa-building" />
+                    <span>iCrowdNewswire LLC</span>
+                  </p>
+                </div>
+              </div>
+            </li>
+            {/* TIMELINE ITEM ENDS */}
+            {/* TIMELINE ITEM STARTS */}
+            <li>
+              <div className="animated-layer fade-in-down-animation fadeInUp wow">
+                <div className="experience">
+                  <h4>WordPress Developer</h4>
+                  <p>
+                    <i className="fa-regular fa-clock" />
+                    <span>2018 - 2020</span>
+                  </p>
+                  <p>
+                    <i className="fa-regular fa-building" />
+                    <span>Fiverr</span>
                   </p>
                 </div>
               </div>

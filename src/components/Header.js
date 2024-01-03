@@ -22,7 +22,7 @@ const Header = () => {
                 <span id="contact-link">Contact</span>
               </li>
               <li>
-                <span id="blog-link">Blog</span>
+                <span id="blog-link">Certifications</span>
               </li>
             </ul>
           </nav>
@@ -67,7 +67,7 @@ const Header = () => {
             </li>
             <li>
               <a href="#blog">
-                <span>Blog</span>
+                <span>Certifications</span>
               </a>
             </li>
           </ul>

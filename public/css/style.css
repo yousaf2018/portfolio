@@ -846,7 +846,7 @@ header .mobile-menu {
   position: relative;
   display: flex;
   flex-direction: column;
-  padding: 40px;
+  padding: 37px;
   overflow: hidden;
 }
 
