@@ -7,14 +7,14 @@ const Testimonials = () => {
           <div>
             <p>
               <span className="quote">
-                " I worked with Bilal, he was very helpful and fast to respond
-                to my inquiry to help with Wordpress website issues and all
-                technical problems. "
+                "I really enjoyed working with this Bilal. He delivered on time
+                and the delivery met my expectations. His communication was on
+                point as well. I highly recommend his services."
               </span>
-              <span className="person">Jasmin Aniston</span>
-              <span className="job">Director - Adobe</span>
+              <span className="person">Fqafrique</span>
+              <span className="job">Kenya</span>
             </p>
-            <img src="assets/testimonials/testimonial-1.jpg" alt="" />
+            {/* <img src="assets/testimonials/testimonial-1.jpg" alt="" /> */}
           </div>
         </div>
         {/* TESTIMONIAL ITEM ENDS */}
@@ -23,14 +23,46 @@ const Testimonials = () => {
           <div>
             <p>
               <span className="quote">
-                " Bilal is a great help managing a very out of date website.
-                Everything we ask him to do is done quickly and efficiently, we
-                would be lost without him. "
+                "Bilal is an awesome professional to work with. He is very
+                dedicated and displays personal interests during the execution
+                of the project. He always advise the best for your project."
               </span>
-              <span className="person">Mark Eliott</span>
-              <span className="job">Manager - Envato</span>
+              <span className="person">Saif</span>
+              <span className="job">Canada</span>
             </p>
-            <img src="assets/testimonials/testimonial-2.jpg" alt="" />
+            {/* <img src="assets/testimonials/testimonial-2.jpg" alt="" /> */}
+          </div>
+        </div>
+        {/* TESTIMONIAL ITEM ENDS */}
+        {/* TESTIMONIAL ITEM STARTS */}
+        <div className="quote-container animated-layer fade-in-right-animation fadeInUp wow">
+          <div>
+            <p>
+              <span className="quote">
+                "You’re the BEST. Loved your services. Friendly communication
+                and on time delivery. Looking forward to work again with you on
+                future projects as well. May you have more success in life."
+              </span>
+              <span className="person">Allmoazam550</span>
+              <span className="job">Germany</span>
+            </p>
+            {/* <img src="assets/testimonials/testimonial-2.jpg" alt="" /> */}
+          </div>
+        </div>
+        {/* TESTIMONIAL ITEM ENDS */}
+        {/* TESTIMONIAL ITEM STARTS */}
+        <div className="quote-container animated-layer fade-in-right-animation fadeInUp wow">
+          <div>
+            <p>
+              <span className="quote">
+                "Bilal is an awesome professional to work with. He is very
+                dedicated and displays personal interests during the execution
+                of the project. He always advise the best for your project."
+              </span>
+              <span className="person">Shopking247</span>
+              <span className="job">United States</span>
+            </p>
+            {/* <img src="assets/testimonials/testimonial-2.jpg" alt="" /> */}
           </div>
         </div>
         {/* TESTIMONIAL ITEM ENDS */}
