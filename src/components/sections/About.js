@@ -274,7 +274,7 @@ const About = () => {
                   <h4>Full Stack Developer</h4>
                   <p>
                     <i className="fa-regular fa-clock" />
-                    <span>2023 - Now</span>
+                    <span>2023 - Present</span>
                   </p>
                   <p>
                     <i className="fa-regular fa-building" />

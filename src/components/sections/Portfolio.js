@@ -1,5 +1,5 @@
-import { salimovSlider } from "@/src/sliderProps";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { salimovSlider } from '@/src/sliderProps';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 const Portfolio = () => {
   return (
@@ -38,21 +38,21 @@ const Portfolio = () => {
           {/* ITEM MAIN CONTENT ENDS */}
           {/* ITEM DETAILS STARTS */}
           <div className="details">
-            <h4>Image Project</h4>
+            <h4>Bit Predict</h4>
             <div>
               <ul>
                 <li>
                   <span>
                     <i className="fa-regular fa-file-lines" /> Project :
                   </span>
-                  <span>Website</span>
+                  <span>Crypto Web Application</span>
                 </li>
-                <li>
+                {/* <li>
                   <span>
                     <i className="fa-regular fa-user" /> Client :
                   </span>
                   <span>Envato</span>
-                </li>
+                </li> */}
                 <li>
                   <span>
                     <i className="fa-regular fa-hourglass" /> Duration :
@@ -63,11 +63,15 @@ const Portfolio = () => {
                   <span>
                     <i className="fa-solid fa-code-branch" /> Frameworks :
                   </span>
-                  <span>WordPress</span>
+                  <span>ReactJs, NodeJS and Firebase</span>
                 </li>
               </ul>
             </div>
-            <a href="#" target="_blank" className="custom-btn">
+            <a
+              href="http://bitpredict.ai/"
+              target="_blank"
+              className="custom-btn"
+            >
               <span>
                 preview <i className="fa-solid fa-arrow-up-right-from-square" />
               </span>

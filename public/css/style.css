@@ -820,6 +820,7 @@ header .mobile-menu {
   height: 12px;
   transform: translateY(-50%) rotate(45deg);
   border-radius: 3px;
+  z-index: 1;
 }
 
 .about .timeline ol li > div {
@@ -1257,7 +1258,7 @@ header .mobile-menu {
 }
 
 .contact .separator {
-  transform: translateX(calc(100% + 150px));
+  transform: translateX(calc(100% + 149px));
 }
 
 /*** CLIENTS SECTION ***/
