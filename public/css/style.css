@@ -1468,7 +1468,7 @@ header .mobile-menu {
 .blog .latestposts > div {
   position: relative;
   border-radius: 20px;
-  background: #25352b;
+  /* background: #25352b; */
 }
 
 .blog .latestposts > div:not(:first-child) {
