@@ -909,11 +909,407 @@ const Portfolio = () => {
         </SwiperSlide>
         {/* PORTFOLIO ITEM ENDS */}
 
-        {/* OTHERS */}
+        {/* PORTFOLIO ITEM STARTS */}
+        <SwiperSlide className="single-item swiper-slide">
+          {/* ITEM MAIN CONTENT STARTS */}
+          <div className="main-content">
+            <img
+              className="img-fluid"
+              src="assets/portfolio/project-19.jpg"
+              alt="Image Project"
+            />
+          </div>
+          {/* ITEM MAIN CONTENT ENDS */}
+          {/* ITEM DETAILS STARTS */}
+          <div className="details">
+            <h4>mimAR Studios</h4>
+            <div>
+              <ul>
+                <li>
+                  <span>
+                    <i className="fa-regular fa-file-lines" /> Project :
+                  </span>
+                  <span>3D Architectural Website</span>
+                </li>
+
+                <li>
+                  <span>
+                    <i className="fa-regular fa-hourglass" /> Duration :
+                  </span>
+                  <span>2 Months</span>
+                </li>
+                <li>
+                  <span>
+                    <i className="fa-solid fa-code-branch" /> Frameworks :
+                  </span>
+                  <span>WordPress</span>
+                </li>
+              </ul>
+            </div>
+            <a href="https://mim.archi/" target="_blank" className="custom-btn">
+              <span>
+                preview <i className="fa-solid fa-arrow-up-right-from-square" />
+              </span>
+            </a>
+          </div>
+          {/* ITEM DETAILS ENDS */}
+        </SwiperSlide>
+        {/* PORTFOLIO ITEM ENDS */}
 
         {/* PORTFOLIO ITEM STARTS */}
         <SwiperSlide className="single-item swiper-slide">
           {/* ITEM MAIN CONTENT STARTS */}
+          <div className="main-content">
+            <img
+              className="img-fluid"
+              src="assets/portfolio/project-20.jpg"
+              alt="Image Project"
+            />
+          </div>
+          {/* ITEM MAIN CONTENT ENDS */}
+          {/* ITEM DETAILS STARTS */}
+          <div className="details">
+            <h4>Neurog</h4>
+            <div>
+              <ul>
+                <li>
+                  <span>
+                    <i className="fa-regular fa-file-lines" /> Project :
+                  </span>
+                  <span>Research Company Website</span>
+                </li>
+
+                <li>
+                  <span>
+                    <i className="fa-regular fa-hourglass" /> Duration :
+                  </span>
+                  <span>3 Weeks</span>
+                </li>
+                <li>
+                  <span>
+                    <i className="fa-solid fa-code-branch" /> Frameworks :
+                  </span>
+                  <span>WordPress</span>
+                </li>
+              </ul>
+            </div>
+            <a href="https://neurog.ai/" target="_blank" className="custom-btn">
+              <span>
+                preview <i className="fa-solid fa-arrow-up-right-from-square" />
+              </span>
+            </a>
+          </div>
+          {/* ITEM DETAILS ENDS */}
+        </SwiperSlide>
+        {/* PORTFOLIO ITEM ENDS */}
+
+        {/* PORTFOLIO ITEM STARTS */}
+        <SwiperSlide className="single-item swiper-slide">
+          {/* ITEM MAIN CONTENT STARTS */}
+          <div className="main-content">
+            <img
+              className="img-fluid"
+              src="assets/portfolio/project-21.jpg"
+              alt="Image Project"
+            />
+          </div>
+          {/* ITEM MAIN CONTENT ENDS */}
+          {/* ITEM DETAILS STARTS */}
+          <div className="details">
+            <h4>Skyways Transportation</h4>
+            <div>
+              <ul>
+                <li>
+                  <span>
+                    <i className="fa-regular fa-file-lines" /> Project :
+                  </span>
+                  <span>Company Website</span>
+                </li>
+
+                <li>
+                  <span>
+                    <i className="fa-regular fa-hourglass" /> Duration :
+                  </span>
+                  <span>4 Days</span>
+                </li>
+                <li>
+                  <span>
+                    <i className="fa-solid fa-code-branch" /> Frameworks :
+                  </span>
+                  <span>WordPress</span>
+                </li>
+              </ul>
+            </div>
+            <a
+              href="https://skywaystransportation.com/"
+              target="_blank"
+              className="custom-btn"
+            >
+              <span>
+                preview <i className="fa-solid fa-arrow-up-right-from-square" />
+              </span>
+            </a>
+          </div>
+          {/* ITEM DETAILS ENDS */}
+        </SwiperSlide>
+        {/* PORTFOLIO ITEM ENDS */}
+
+        {/* PORTFOLIO ITEM STARTS */}
+        <SwiperSlide className="single-item swiper-slide">
+          {/* ITEM MAIN CONTENT STARTS */}
+          <div className="main-content">
+            <img
+              className="img-fluid"
+              src="assets/portfolio/project-22.jpg"
+              alt="Image Project"
+            />
+          </div>
+          {/* ITEM MAIN CONTENT ENDS */}
+          {/* ITEM DETAILS STARTS */}
+          <div className="details">
+            <h4>UD Builders</h4>
+            <div>
+              <ul>
+                <li>
+                  <span>
+                    <i className="fa-regular fa-file-lines" /> Project :
+                  </span>
+                  <span>Website</span>
+                </li>
+
+                <li>
+                  <span>
+                    <i className="fa-regular fa-hourglass" /> Duration :
+                  </span>
+                  <span>1 Month</span>
+                </li>
+                <li>
+                  <span>
+                    <i className="fa-solid fa-code-branch" /> Frameworks :
+                  </span>
+                  <span>WordPress</span>
+                </li>
+              </ul>
+            </div>
+            <a
+              href="https://udbuilders.com.pk/"
+              target="_blank"
+              className="custom-btn"
+            >
+              <span>
+                preview <i className="fa-solid fa-arrow-up-right-from-square" />
+              </span>
+            </a>
+          </div>
+          {/* ITEM DETAILS ENDS */}
+        </SwiperSlide>
+        {/* PORTFOLIO ITEM ENDS */}
+
+        {/* PORTFOLIO ITEM STARTS */}
+        <SwiperSlide className="single-item swiper-slide">
+          {/* ITEM MAIN CONTENT STARTS */}
+          <div className="main-content">
+            <img
+              className="img-fluid"
+              src="assets/portfolio/project-23.jpg"
+              alt="Image Project"
+            />
+          </div>
+          {/* ITEM MAIN CONTENT ENDS */}
+          {/* ITEM DETAILS STARTS */}
+          <div className="details">
+            <h4>Airport Residency</h4>
+            <div>
+              <ul>
+                <li>
+                  <span>
+                    <i className="fa-regular fa-file-lines" /> Project :
+                  </span>
+                  <span>Real Estate Website</span>
+                </li>
+
+                <li>
+                  <span>
+                    <i className="fa-regular fa-hourglass" /> Duration :
+                  </span>
+                  <span>14 Days</span>
+                </li>
+                <li>
+                  <span>
+                    <i className="fa-solid fa-code-branch" /> Frameworks :
+                  </span>
+                  <span>HTML, CSS & JS</span>
+                </li>
+              </ul>
+            </div>
+            <a
+              href="https://airportresidence.netlify.app/"
+              target="_blank"
+              className="custom-btn"
+            >
+              <span>
+                preview <i className="fa-solid fa-arrow-up-right-from-square" />
+              </span>
+            </a>
+          </div>
+          {/* ITEM DETAILS ENDS */}
+        </SwiperSlide>
+        {/* PORTFOLIO ITEM ENDS */}
+
+        {/* PORTFOLIO ITEM STARTS */}
+        <SwiperSlide className="single-item swiper-slide">
+          {/* ITEM MAIN CONTENT STARTS */}
+          <div className="main-content">
+            <img
+              className="img-fluid"
+              src="assets/portfolio/project-24.jpg"
+              alt="Image Project"
+            />
+          </div>
+          {/* ITEM MAIN CONTENT ENDS */}
+          {/* ITEM DETAILS STARTS */}
+          <div className="details">
+            <h4>The 360 Residences</h4>
+            <div>
+              <ul>
+                <li>
+                  <span>
+                    <i className="fa-regular fa-file-lines" /> Project :
+                  </span>
+                  <span>Residences Website</span>
+                </li>
+
+                <li>
+                  <span>
+                    <i className="fa-regular fa-hourglass" /> Duration :
+                  </span>
+                  <span>10 Days</span>
+                </li>
+                <li>
+                  <span>
+                    <i className="fa-solid fa-code-branch" /> Frameworks :
+                  </span>
+                  <span>HTML, CSS & JS</span>
+                </li>
+              </ul>
+            </div>
+            <a
+              href="https://the360residences.netlify.app/"
+              target="_blank"
+              className="custom-btn"
+            >
+              <span>
+                preview <i className="fa-solid fa-arrow-up-right-from-square" />
+              </span>
+            </a>
+          </div>
+          {/* ITEM DETAILS ENDS */}
+        </SwiperSlide>
+        {/* PORTFOLIO ITEM ENDS */}
+
+        {/* PORTFOLIO ITEM STARTS */}
+        <SwiperSlide className="single-item swiper-slide">
+          {/* ITEM MAIN CONTENT STARTS */}
+          <div className="main-content">
+            <img
+              className="img-fluid"
+              src="assets/portfolio/project-25.jpg"
+              alt="Image Project"
+            />
+          </div>
+          {/* ITEM MAIN CONTENT ENDS */}
+          {/* ITEM DETAILS STARTS */}
+          <div className="details">
+            <h4>Town House</h4>
+            <div>
+              <ul>
+                <li>
+                  <span>
+                    <i className="fa-regular fa-file-lines" /> Project :
+                  </span>
+                  <span>3D Tour</span>
+                </li>
+
+                <li>
+                  <span>
+                    <i className="fa-regular fa-hourglass" /> Duration :
+                  </span>
+                  <span>15 Days</span>
+                </li>
+                <li>
+                  <span>
+                    <i className="fa-solid fa-code-branch" /> Frameworks :
+                  </span>
+                  <span>WebXR</span>
+                </li>
+              </ul>
+            </div>
+            <a
+              href="https://mim.archi/tours/hmr/townhouse/"
+              target="_blank"
+              className="custom-btn"
+            >
+              <span>
+                preview <i className="fa-solid fa-arrow-up-right-from-square" />
+              </span>
+            </a>
+          </div>
+          {/* ITEM DETAILS ENDS */}
+        </SwiperSlide>
+        {/* PORTFOLIO ITEM ENDS */}
+
+        {/* PORTFOLIO ITEM STARTS */}
+        <SwiperSlide className="single-item swiper-slide">
+          {/* ITEM MAIN CONTENT STARTS */}
+          <div className="main-content">
+            <img
+              className="img-fluid"
+              src="assets/portfolio/project-26.jpg"
+              alt="Image Project"
+            />
+          </div>
+          {/* ITEM MAIN CONTENT ENDS */}
+          {/* ITEM DETAILS STARTS */}
+          <div className="details">
+            <h4>Apartment</h4>
+            <div>
+              <ul>
+                <li>
+                  <span>
+                    <i className="fa-regular fa-file-lines" /> Project :
+                  </span>
+                  <span>3D Tour</span>
+                </li>
+
+                <li>
+                  <span>
+                    <i className="fa-regular fa-hourglass" /> Duration :
+                  </span>
+                  <span>15 Days</span>
+                </li>
+                <li>
+                  <span>
+                    <i className="fa-solid fa-code-branch" /> Frameworks :
+                  </span>
+                  <span>WebXR</span>
+                </li>
+              </ul>
+            </div>
+            <a
+              href="https://mim.archi/1bed/"
+              target="_blank"
+              className="custom-btn"
+            >
+              <span>
+                preview <i className="fa-solid fa-arrow-up-right-from-square" />
+              </span>
+            </a>
+          </div>
+          {/* ITEM DETAILS ENDS */}
+        </SwiperSlide>
+        {/* PORTFOLIO ITEM ENDS */}
+
+        {/* <SwiperSlide className="single-item swiper-slide">
           <div className="main-content">
             <div className="videocontainer">
               <iframe
@@ -923,8 +1319,6 @@ const Portfolio = () => {
               />
             </div>
           </div>
-          {/* ITEM MAIN CONTENT ENDS */}
-          {/* ITEM DETAILS STARTS */}
           <div className="details">
             <h4>Youtube Project</h4>
             <div>
@@ -961,12 +1355,9 @@ const Portfolio = () => {
               </span>
             </a>
           </div>
-          {/* ITEM DETAILS ENDS */}
         </SwiperSlide>
-        {/* PORTFOLIO ITEM ENDS */}
-        {/* PORTFOLIO ITEM STARTS */}
+
         <SwiperSlide className="single-item swiper-slide">
-          {/* ITEM MAIN CONTENT STARTS */}
           <div className="main-content">
             <Swiper
               {...salimovSlider.portfolioItems}
@@ -984,8 +1375,6 @@ const Portfolio = () => {
               <div className="swiper-pagination" />
             </Swiper>
           </div>
-          {/* ITEM MAIN CONTENT ENDS */}
-          {/* ITEM DETAILS STARTS */}
           <div className="details">
             <h4>Slider Project</h4>
             <div>
@@ -1022,12 +1411,9 @@ const Portfolio = () => {
               </span>
             </a>
           </div>
-          {/* ITEM DETAILS ENDS */}
         </SwiperSlide>
-        {/* PORTFOLIO ITEM ENDS */}
-        {/* PORTFOLIO ITEM STARTS */}
+
         <SwiperSlide className="single-item swiper-slide">
-          {/* ITEM MAIN CONTENT STARTS */}
           <div className="main-content">
             <a
               href="https://themeforest.net"
@@ -1041,8 +1427,6 @@ const Portfolio = () => {
               />
             </a>
           </div>
-          {/* ITEM MAIN CONTENT ENDS */}
-          {/* ITEM DETAILS STARTS */}
           <div className="details">
             <h4>External Link</h4>
             <div>
@@ -1079,9 +1463,8 @@ const Portfolio = () => {
               </span>
             </a>
           </div>
-          {/* ITEM DETAILS ENDS */}
-        </SwiperSlide>
-        {/* PORTFOLIO ITEM ENDS */}
+        </SwiperSlide> */}
+
         <div className="nav-item next-item animated-btn">
           <span />
         </div>

@@ -1,171 +1,86 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
-exports.id = 888;
-exports.ids = [888];
+exports.id = "pages/_app";
+exports.ids = ["pages/_app"];
 exports.modules = {
 
-/***/ 1592:
+/***/ "./pages/_app.js":
+/*!***********************!*\
+  !*** ./pages/_app.js ***!
+  \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ _app)
-});
-
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
-;// CONCATENATED MODULE: ./src/components/Preloader.js
-
-const Preloader = ()=>{
-    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
-        id: "preloader",
-        className: "preloaded",
-        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-            className: "line"
-        })
-    });
-};
-/* harmony default export */ const components_Preloader = (Preloader);
-
-;// CONCATENATED MODULE: external "next/head"
-const head_namespaceObject = require("next/head");
-var head_default = /*#__PURE__*/__webpack_require__.n(head_namespaceObject);
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(6689);
-;// CONCATENATED MODULE: ./src/components/Switcher.js
-
-
-
-const colors = [
-    {
-        id: 1,
-        name: "yellow"
-    }
-];
-const Switcher = ()=>{
-    const [color, setColor] = (0,external_react_.useState)("yellow");
-    const [toggle, setToggle] = (0,external_react_.useState)(false);
-    return /*#__PURE__*/ jsx_runtime_.jsx(external_react_.Fragment, {
-        children: /*#__PURE__*/ jsx_runtime_.jsx((head_default()), {
-            children: /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                rel: "stylesheet",
-                href: `css/skins/${color}.css`
-            })
-        })
-    });
-};
-/* harmony default export */ const components_Switcher = (Switcher);
-
-;// CONCATENATED MODULE: ./src/SalimovHead.js
-
-
-const SalimovHead = ()=>{
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)((head_default()), {
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("title", {
-                children: "Bilal's - Personal Portfolio"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                charSet: "utf-8"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                name: "viewport",
-                content: "width=device-width, initial-scale=1.0"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                rel: "preconnect",
-                href: "https://fonts.googleapis.com"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                rel: "preconnect",
-                href: "https://fonts.gstatic.com",
-                crossOrigin: ""
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                href: "https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap",
-                rel: "stylesheet"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                rel: "stylesheet",
-                href: "css/devicon.min.css"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                rel: "stylesheet",
-                href: "css/all.min.css"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                rel: "stylesheet",
-                href: "css/bootstrap.min.css"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                rel: "stylesheet",
-                href: "css/swiper-bundle.min.css"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                rel: "stylesheet",
-                href: "css/animate.min.css"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                rel: "stylesheet",
-                href: "css/jquery.mCustomScrollbar.min.css"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                rel: "stylesheet",
-                href: "css/style.css"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                rel: "stylesheet",
-                type: "text/css",
-                href: "css/styleswitcher.css"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                rel: "icon",
-                type: "image/x-icon",
-                href: "assets/favicon.ico"
-            })
-        ]
-    });
-};
-/* harmony default export */ const src_SalimovHead = (SalimovHead);
-
-// EXTERNAL MODULE: ./styles/globals.css
-var globals = __webpack_require__(6764);
-;// CONCATENATED MODULE: ./pages/_app.js
-
-
-
-
-
-
-const App = ({ Component , pageProps  })=>{
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_react_.Fragment, {
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx(src_SalimovHead, {}),
-            /*#__PURE__*/ jsx_runtime_.jsx(components_Switcher, {}),
-            /*#__PURE__*/ jsx_runtime_.jsx(components_Preloader, {}),
-            /*#__PURE__*/ jsx_runtime_.jsx(Component, {
-                ...pageProps
-            })
-        ]
-    });
-};
-/* harmony default export */ const _app = (App);
-
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _src_components_Preloader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/src/components/Preloader */ \"./src/components/Preloader.js\");\n/* harmony import */ var _src_components_Switcher__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/src/components/Switcher */ \"./src/components/Switcher.js\");\n/* harmony import */ var _src_SalimovHead__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/src/SalimovHead */ \"./src/SalimovHead.js\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/styles/globals.css */ \"./styles/globals.css\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);\n\n\n\n\n\n\nconst App = ({ Component , pageProps  })=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react__WEBPACK_IMPORTED_MODULE_5__.Fragment, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_src_SalimovHead__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {}, void 0, false, {\n                fileName: \"C:\\\\Users\\\\Neurog\\\\Desktop\\\\personal-portfolio\\\\pages\\\\_app.js\",\n                lineNumber: 10,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_src_components_Switcher__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {}, void 0, false, {\n                fileName: \"C:\\\\Users\\\\Neurog\\\\Desktop\\\\personal-portfolio\\\\pages\\\\_app.js\",\n                lineNumber: 11,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_src_components_Preloader__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {}, void 0, false, {\n                fileName: \"C:\\\\Users\\\\Neurog\\\\Desktop\\\\personal-portfolio\\\\pages\\\\_app.js\",\n                lineNumber: 12,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n                ...pageProps\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\Neurog\\\\Desktop\\\\personal-portfolio\\\\pages\\\\_app.js\",\n                lineNumber: 13,\n                columnNumber: 7\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\Neurog\\\\Desktop\\\\personal-portfolio\\\\pages\\\\_app.js\",\n        lineNumber: 9,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7O0FBQW1EO0FBQ0Y7QUFDTDtBQUNkO0FBQ0c7QUFFakMsTUFBTUksTUFBTSxDQUFDLEVBQUVDLFVBQVMsRUFBRUMsVUFBUyxFQUFFLEdBQUs7SUFDeEMscUJBQ0UsOERBQUNILDJDQUFRQTs7MEJBQ1AsOERBQUNELHdEQUFXQTs7Ozs7MEJBQ1osOERBQUNELGdFQUFRQTs7Ozs7MEJBQ1QsOERBQUNELGlFQUFTQTs7Ozs7MEJBQ1YsOERBQUNLO2dCQUFXLEdBQUdDLFNBQVM7Ozs7Ozs7Ozs7OztBQUc5QjtBQUNBLGlFQUFlRixHQUFHQSxFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vc2FsaW1vdi1yZWFjdC8uL3BhZ2VzL19hcHAuanM/ZTBhZCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUHJlbG9hZGVyIGZyb20gJ0Avc3JjL2NvbXBvbmVudHMvUHJlbG9hZGVyJztcclxuaW1wb3J0IFN3aXRjaGVyIGZyb20gJ0Avc3JjL2NvbXBvbmVudHMvU3dpdGNoZXInO1xyXG5pbXBvcnQgU2FsaW1vdkhlYWQgZnJvbSAnQC9zcmMvU2FsaW1vdkhlYWQnO1xyXG5pbXBvcnQgJ0Avc3R5bGVzL2dsb2JhbHMuY3NzJztcclxuaW1wb3J0IHsgRnJhZ21lbnQgfSBmcm9tICdyZWFjdCc7XHJcblxyXG5jb25zdCBBcHAgPSAoeyBDb21wb25lbnQsIHBhZ2VQcm9wcyB9KSA9PiB7XHJcbiAgcmV0dXJuIChcclxuICAgIDxGcmFnbWVudD5cclxuICAgICAgPFNhbGltb3ZIZWFkIC8+XHJcbiAgICAgIDxTd2l0Y2hlciAvPlxyXG4gICAgICA8UHJlbG9hZGVyIC8+XHJcbiAgICAgIDxDb21wb25lbnQgey4uLnBhZ2VQcm9wc30gLz5cclxuICAgIDwvRnJhZ21lbnQ+XHJcbiAgKTtcclxufTtcclxuZXhwb3J0IGRlZmF1bHQgQXBwO1xyXG4iXSwibmFtZXMiOlsiUHJlbG9hZGVyIiwiU3dpdGNoZXIiLCJTYWxpbW92SGVhZCIsIkZyYWdtZW50IiwiQXBwIiwiQ29tcG9uZW50IiwicGFnZVByb3BzIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./pages/_app.js\n");
 
 /***/ }),
 
-/***/ 6764:
+/***/ "./src/SalimovHead.js":
+/*!****************************!*\
+  !*** ./src/SalimovHead.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);\n\n\nconst SalimovHead = ()=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_head__WEBPACK_IMPORTED_MODULE_1___default()), {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"title\", {\n                children: \"Bilal's - Personal Portfolio\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\Neurog\\\\Desktop\\\\personal-portfolio\\\\src\\\\SalimovHead.js\",\n                lineNumber: 5,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                charSet: \"utf-8\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\Neurog\\\\Desktop\\\\personal-portfolio\\\\src\\\\SalimovHead.js\",\n                lineNumber: 6,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"viewport\",\n                content: \"width=device-width, initial-scale=1.0\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\Neurog\\\\Desktop\\\\personal-portfolio\\\\src\\\\SalimovHead.js\",\n                lineNumber: 7,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"preconnect\",\n                href: \"https://fonts.googleapis.com\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\Neurog\\\\Desktop\\\\personal-portfolio\\\\src\\\\SalimovHead.js\",\n                lineNumber: 9,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"preconnect\",\n                href: \"https://fonts.gstatic.com\",\n                crossOrigin: \"\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\Neurog\\\\Desktop\\\\personal-portfolio\\\\src\\\\SalimovHead.js\",\n                lineNumber: 10,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                href: \"https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap\",\n                rel: \"stylesheet\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\Neurog\\\\Desktop\\\\personal-portfolio\\\\src\\\\SalimovHead.js\",\n                lineNumber: 11,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"stylesheet\",\n                href: \"css/devicon.min.css\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\Neurog\\\\Desktop\\\\personal-portfolio\\\\src\\\\SalimovHead.js\",\n                lineNumber: 16,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"stylesheet\",\n                href: \"css/all.min.css\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\Neurog\\\\Desktop\\\\personal-portfolio\\\\src\\\\SalimovHead.js\",\n                lineNumber: 17,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"stylesheet\",\n                href: \"css/bootstrap.min.css\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\Neurog\\\\Desktop\\\\personal-portfolio\\\\src\\\\SalimovHead.js\",\n                lineNumber: 18,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"stylesheet\",\n                href: \"css/swiper-bundle.min.css\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\Neurog\\\\Desktop\\\\personal-portfolio\\\\src\\\\SalimovHead.js\",\n                lineNumber: 19,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"stylesheet\",\n                href: \"css/animate.min.css\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\Neurog\\\\Desktop\\\\personal-portfolio\\\\src\\\\SalimovHead.js\",\n                lineNumber: 20,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"stylesheet\",\n                href: \"css/jquery.mCustomScrollbar.min.css\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\Neurog\\\\Desktop\\\\personal-portfolio\\\\src\\\\SalimovHead.js\",\n                lineNumber: 21,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"stylesheet\",\n                href: \"css/style.css\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\Neurog\\\\Desktop\\\\personal-portfolio\\\\src\\\\SalimovHead.js\",\n                lineNumber: 22,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"stylesheet\",\n                type: \"text/css\",\n                href: \"css/styleswitcher.css\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\Neurog\\\\Desktop\\\\personal-portfolio\\\\src\\\\SalimovHead.js\",\n                lineNumber: 27,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"icon\",\n                type: \"image/x-icon\",\n                href: \"assets/favicon.ico\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\Neurog\\\\Desktop\\\\personal-portfolio\\\\src\\\\SalimovHead.js\",\n                lineNumber: 28,\n                columnNumber: 7\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\Neurog\\\\Desktop\\\\personal-portfolio\\\\src\\\\SalimovHead.js\",\n        lineNumber: 4,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SalimovHead);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvU2FsaW1vdkhlYWQuanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBQTZCO0FBQzdCLE1BQU1DLGNBQWMsSUFBTTtJQUN4QixxQkFDRSw4REFBQ0Qsa0RBQUlBOzswQkFDSCw4REFBQ0U7MEJBQU07Ozs7OzswQkFDUCw4REFBQ0M7Z0JBQUtDLFNBQVE7Ozs7OzswQkFDZCw4REFBQ0Q7Z0JBQUtFLE1BQUs7Z0JBQVdDLFNBQVE7Ozs7OzswQkFFOUIsOERBQUNDO2dCQUFLQyxLQUFJO2dCQUFhQyxNQUFLOzs7Ozs7MEJBQzVCLDhEQUFDRjtnQkFBS0MsS0FBSTtnQkFBYUMsTUFBSztnQkFBNEJDLGFBQVk7Ozs7OzswQkFDcEUsOERBQUNIO2dCQUNDRSxNQUFLO2dCQUNMRCxLQUFJOzs7Ozs7MEJBR04sOERBQUNEO2dCQUFLQyxLQUFJO2dCQUFhQyxNQUFLOzs7Ozs7MEJBQzVCLDhEQUFDRjtnQkFBS0MsS0FBSTtnQkFBYUMsTUFBSzs7Ozs7OzBCQUM1Qiw4REFBQ0Y7Z0JBQUtDLEtBQUk7Z0JBQWFDLE1BQUs7Ozs7OzswQkFDNUIsOERBQUNGO2dCQUFLQyxLQUFJO2dCQUFhQyxNQUFLOzs7Ozs7MEJBQzVCLDhEQUFDRjtnQkFBS0MsS0FBSTtnQkFBYUMsTUFBSzs7Ozs7OzBCQUM1Qiw4REFBQ0Y7Z0JBQUtDLEtBQUk7Z0JBQWFDLE1BQUs7Ozs7OzswQkFDNUIsOERBQUNGO2dCQUFLQyxLQUFJO2dCQUFhQyxNQUFLOzs7Ozs7MEJBSzVCLDhEQUFDRjtnQkFBS0MsS0FBSTtnQkFBYUcsTUFBSztnQkFBV0YsTUFBSzs7Ozs7OzBCQUM1Qyw4REFBQ0Y7Z0JBQUtDLEtBQUk7Z0JBQU9HLE1BQUs7Z0JBQWVGLE1BQUs7Ozs7Ozs7Ozs7OztBQUdoRDtBQUNBLGlFQUFlUixXQUFXQSxFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vc2FsaW1vdi1yZWFjdC8uL3NyYy9TYWxpbW92SGVhZC5qcz83NjViIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkIGZyb20gJ25leHQvaGVhZCc7XHJcbmNvbnN0IFNhbGltb3ZIZWFkID0gKCkgPT4ge1xyXG4gIHJldHVybiAoXHJcbiAgICA8SGVhZD5cclxuICAgICAgPHRpdGxlPkJpbGFsJ3MgLSBQZXJzb25hbCBQb3J0Zm9saW88L3RpdGxlPlxyXG4gICAgICA8bWV0YSBjaGFyU2V0PVwidXRmLThcIiAvPlxyXG4gICAgICA8bWV0YSBuYW1lPVwidmlld3BvcnRcIiBjb250ZW50PVwid2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTEuMFwiIC8+XHJcbiAgICAgIHsvKiBUZW1wbGF0ZSBHb29nbGUgRm9udHMgKi99XHJcbiAgICAgIDxsaW5rIHJlbD1cInByZWNvbm5lY3RcIiBocmVmPVwiaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbVwiIC8+XHJcbiAgICAgIDxsaW5rIHJlbD1cInByZWNvbm5lY3RcIiBocmVmPVwiaHR0cHM6Ly9mb250cy5nc3RhdGljLmNvbVwiIGNyb3NzT3JpZ2luPVwiXCIgLz5cclxuICAgICAgPGxpbmtcclxuICAgICAgICBocmVmPVwiaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3MyP2ZhbWlseT1MaXZ2aWM6d2dodEAxMDA7MjAwOzMwMDs0MDA7NTAwOzYwMDs3MDAmZmFtaWx5PU9zd2FsZDp3Z2h0QDQwMDs1MDA7NjAwOzcwMCZkaXNwbGF5PXN3YXBcIlxyXG4gICAgICAgIHJlbD1cInN0eWxlc2hlZXRcIlxyXG4gICAgICAvPlxyXG4gICAgICB7LyogVGVtcGxhdGUgQ1NTIEZpbGVzICovfVxyXG4gICAgICA8bGluayByZWw9XCJzdHlsZXNoZWV0XCIgaHJlZj1cImNzcy9kZXZpY29uLm1pbi5jc3NcIiAvPlxyXG4gICAgICA8bGluayByZWw9XCJzdHlsZXNoZWV0XCIgaHJlZj1cImNzcy9hbGwubWluLmNzc1wiIC8+XHJcbiAgICAgIDxsaW5rIHJlbD1cInN0eWxlc2hlZXRcIiBocmVmPVwiY3NzL2Jvb3RzdHJhcC5taW4uY3NzXCIgLz5cclxuICAgICAgPGxpbmsgcmVsPVwic3R5bGVzaGVldFwiIGhyZWY9XCJjc3Mvc3dpcGVyLWJ1bmRsZS5taW4uY3NzXCIgLz5cclxuICAgICAgPGxpbmsgcmVsPVwic3R5bGVzaGVldFwiIGhyZWY9XCJjc3MvYW5pbWF0ZS5taW4uY3NzXCIgLz5cclxuICAgICAgPGxpbmsgcmVsPVwic3R5bGVzaGVldFwiIGhyZWY9XCJjc3MvanF1ZXJ5Lm1DdXN0b21TY3JvbGxiYXIubWluLmNzc1wiIC8+XHJcbiAgICAgIDxsaW5rIHJlbD1cInN0eWxlc2hlZXRcIiBocmVmPVwiY3NzL3N0eWxlLmNzc1wiIC8+XHJcbiAgICAgIHsvKiBDU1MgU2tpbiBGaWxlICovfVxyXG4gICAgICB7LyogPGxpbmsgcmVsPVwic3R5bGVzaGVldFwiIGhyZWY9XCJjc3Mvc2tpbnMveWVsbG93LmNzc1wiIC8+ICovfVxyXG4gICAgICB7LyogTGl2ZSBTdHlsZSBTd2l0Y2hlciAtIGRlbW8gb25seSAqL31cclxuXHJcbiAgICAgIDxsaW5rIHJlbD1cInN0eWxlc2hlZXRcIiB0eXBlPVwidGV4dC9jc3NcIiBocmVmPVwiY3NzL3N0eWxlc3dpdGNoZXIuY3NzXCIgLz5cclxuICAgICAgPGxpbmsgcmVsPVwiaWNvblwiIHR5cGU9XCJpbWFnZS94LWljb25cIiBocmVmPVwiYXNzZXRzL2Zhdmljb24uaWNvXCI+PC9saW5rPlxyXG4gICAgPC9IZWFkPlxyXG4gICk7XHJcbn07XHJcbmV4cG9ydCBkZWZhdWx0IFNhbGltb3ZIZWFkO1xyXG4iXSwibmFtZXMiOlsiSGVhZCIsIlNhbGltb3ZIZWFkIiwidGl0bGUiLCJtZXRhIiwiY2hhclNldCIsIm5hbWUiLCJjb250ZW50IiwibGluayIsInJlbCIsImhyZWYiLCJjcm9zc09yaWdpbiIsInR5cGUiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/SalimovHead.js\n");
+
+/***/ }),
+
+/***/ "./src/components/Preloader.js":
+/*!*************************************!*\
+  !*** ./src/components/Preloader.js ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n\nconst Preloader = ()=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        id: \"preloader\",\n        className: \"preloaded\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            className: \"line\"\n        }, void 0, false, {\n            fileName: \"C:\\\\Users\\\\Neurog\\\\Desktop\\\\personal-portfolio\\\\src\\\\components\\\\Preloader.js\",\n            lineNumber: 4,\n            columnNumber: 7\n        }, undefined)\n    }, void 0, false, {\n        fileName: \"C:\\\\Users\\\\Neurog\\\\Desktop\\\\personal-portfolio\\\\src\\\\components\\\\Preloader.js\",\n        lineNumber: 3,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Preloader);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9QcmVsb2FkZXIuanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFBLE1BQU1BLFlBQVksSUFBTTtJQUN0QixxQkFDRSw4REFBQ0M7UUFBSUMsSUFBRztRQUFZQyxXQUFVO2tCQUM1Qiw0RUFBQ0Y7WUFBSUUsV0FBVTs7Ozs7Ozs7Ozs7QUFHckI7QUFDQSxpRUFBZUgsU0FBU0EsRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL3NhbGltb3YtcmVhY3QvLi9zcmMvY29tcG9uZW50cy9QcmVsb2FkZXIuanM/MTc4OCJdLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBQcmVsb2FkZXIgPSAoKSA9PiB7XHJcbiAgcmV0dXJuIChcclxuICAgIDxkaXYgaWQ9XCJwcmVsb2FkZXJcIiBjbGFzc05hbWU9XCJwcmVsb2FkZWRcIj5cclxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJsaW5lXCIgLz5cclxuICAgIDwvZGl2PlxyXG4gICk7XHJcbn07XHJcbmV4cG9ydCBkZWZhdWx0IFByZWxvYWRlcjtcclxuIl0sIm5hbWVzIjpbIlByZWxvYWRlciIsImRpdiIsImlkIiwiY2xhc3NOYW1lIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/components/Preloader.js\n");
+
+/***/ }),
+
+/***/ "./src/components/Switcher.js":
+/*!************************************!*\
+  !*** ./src/components/Switcher.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\nconst colors = [\n    {\n        id: 1,\n        name: \"yellow\"\n    }\n];\nconst Switcher = ()=>{\n    const [color, setColor] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(\"yellow\");\n    const [toggle, setToggle] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(false);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react__WEBPACK_IMPORTED_MODULE_2__.Fragment, {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_head__WEBPACK_IMPORTED_MODULE_1___default()), {\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"stylesheet\",\n                href: `css/skins/${color}.css`\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\Neurog\\\\Desktop\\\\personal-portfolio\\\\src\\\\components\\\\Switcher.js\",\n                lineNumber: 20,\n                columnNumber: 9\n            }, undefined)\n        }, void 0, false, {\n            fileName: \"C:\\\\Users\\\\Neurog\\\\Desktop\\\\personal-portfolio\\\\src\\\\components\\\\Switcher.js\",\n            lineNumber: 19,\n            columnNumber: 7\n        }, undefined)\n    }, void 0, false, {\n        fileName: \"C:\\\\Users\\\\Neurog\\\\Desktop\\\\personal-portfolio\\\\src\\\\components\\\\Switcher.js\",\n        lineNumber: 18,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Switcher);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9Td2l0Y2hlci5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7OztBQUE2QjtBQUNjO0FBQzNDLE1BQU1HLFNBQVM7SUFDYjtRQUFFQyxJQUFJO1FBQUdDLE1BQU07SUFBUztDQVF6QjtBQUNELE1BQU1DLFdBQVcsSUFBTTtJQUNyQixNQUFNLENBQUNDLE9BQU9DLFNBQVMsR0FBR04sK0NBQVFBLENBQUM7SUFDbkMsTUFBTSxDQUFDTyxRQUFRQyxVQUFVLEdBQUdSLCtDQUFRQSxDQUFDLEtBQUs7SUFFMUMscUJBQ0UsOERBQUNELDJDQUFRQTtrQkFDUCw0RUFBQ0Qsa0RBQUlBO3NCQUNILDRFQUFDVztnQkFBS0MsS0FBSTtnQkFBYUMsTUFBTSxDQUFDLFVBQVUsRUFBRU4sTUFBTSxJQUFJLENBQUM7Ozs7Ozs7Ozs7Ozs7Ozs7QUF5QzdEO0FBQ0EsaUVBQWVELFFBQVFBLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zYWxpbW92LXJlYWN0Ly4vc3JjL2NvbXBvbmVudHMvU3dpdGNoZXIuanM/M2Q0MSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSGVhZCBmcm9tICduZXh0L2hlYWQnO1xyXG5pbXBvcnQgeyBGcmFnbWVudCwgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7XHJcbmNvbnN0IGNvbG9ycyA9IFtcclxuICB7IGlkOiAxLCBuYW1lOiAneWVsbG93JyB9LFxyXG4gIC8vIHsgaWQ6IDIsIG5hbWU6ICdncmVlbicgfSxcclxuICAvLyB7IGlkOiAzLCBuYW1lOiAncmVkJyB9LFxyXG4gIC8vIHsgaWQ6IDQsIG5hbWU6ICdibHVlJyB9LFxyXG4gIC8vIHsgaWQ6IDUsIG5hbWU6ICdvcmFuZ2UnIH0sXHJcbiAgLy8geyBpZDogNiwgbmFtZTogJ3llbGxvd2dyZWVuJyB9LFxyXG4gIC8vIHsgaWQ6IDcsIG5hbWU6ICdwaW5rJyB9LFxyXG4gIC8vIHsgaWQ6IDgsIG5hbWU6ICdnb2xkZW5yb2QnIH0sXHJcbl07XHJcbmNvbnN0IFN3aXRjaGVyID0gKCkgPT4ge1xyXG4gIGNvbnN0IFtjb2xvciwgc2V0Q29sb3JdID0gdXNlU3RhdGUoJ3llbGxvdycpO1xyXG4gIGNvbnN0IFt0b2dnbGUsIHNldFRvZ2dsZV0gPSB1c2VTdGF0ZShmYWxzZSk7XHJcblxyXG4gIHJldHVybiAoXHJcbiAgICA8RnJhZ21lbnQ+XHJcbiAgICAgIDxIZWFkPlxyXG4gICAgICAgIDxsaW5rIHJlbD1cInN0eWxlc2hlZXRcIiBocmVmPXtgY3NzL3NraW5zLyR7Y29sb3J9LmNzc2B9IC8+XHJcbiAgICAgIDwvSGVhZD5cclxuICAgICAgey8qIDxkaXZcclxuICAgICAgICBpZD1cInN3aXRjaGVyXCJcclxuICAgICAgICBjbGFzc05hbWU9e3RvZ2dsZSA/ICdvcGVuJyA6ICdjbG9zZSd9XHJcbiAgICAgICAgc3R5bGU9e3sgZGlzcGxheTogJ2Jsb2NrJyB9fVxyXG4gICAgICA+XHJcbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb250ZW50LXN3aXRjaGVyXCI+XHJcbiAgICAgICAgICA8aDQ+Q09MT1IgU1dJVENIRVI8L2g0PlxyXG4gICAgICAgICAgPHVsPlxyXG4gICAgICAgICAgICB7Y29sb3JzLm1hcCgoY29sb3IpID0+IChcclxuICAgICAgICAgICAgICA8bGk+XHJcbiAgICAgICAgICAgICAgICA8YVxyXG4gICAgICAgICAgICAgICAgICBocmVmPVwiI1wiXHJcbiAgICAgICAgICAgICAgICAgIHRpdGxlPXtjb2xvci5uYW1lfVxyXG4gICAgICAgICAgICAgICAgICBjbGFzc05hbWU9XCJjb2xvclwiXHJcbiAgICAgICAgICAgICAgICAgIGtleT17Y29sb3IuaWR9XHJcbiAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldENvbG9yKGNvbG9yLm5hbWUpfVxyXG4gICAgICAgICAgICAgICAgPlxyXG4gICAgICAgICAgICAgICAgICA8aW1nXHJcbiAgICAgICAgICAgICAgICAgICAgc3JjPXtgYXNzZXRzL3N0eWxlc3dpdGNoZXIvJHtjb2xvci5uYW1lfS5wbmdgfVxyXG4gICAgICAgICAgICAgICAgICAgIGFsdD17Y29sb3IubmFtZX1cclxuICAgICAgICAgICAgICAgICAgLz5cclxuICAgICAgICAgICAgICAgIDwvYT5cclxuICAgICAgICAgICAgICA8L2xpPlxyXG4gICAgICAgICAgICApKX1cclxuICAgICAgICAgIDwvdWw+XHJcbiAgICAgICAgICA8ZGl2IGlkPVwiaGlkZVN3aXRjaGVyXCIgb25DbGljaz17KCkgPT4gc2V0VG9nZ2xlKGZhbHNlKX0+XHJcbiAgICAgICAgICAgIMOXXHJcbiAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICA8L2Rpdj5cclxuICAgICAgPC9kaXY+IFxyXG4gICAgICA8ZGl2XHJcbiAgICAgICAgaWQ9XCJzaG93U3dpdGNoZXJcIlxyXG4gICAgICAgIGNsYXNzTmFtZT17YHN0eWxlU2Vjb25kQ29sb3IgJHt0b2dnbGUgPyAnY2xvc2UnIDogJ29wZW4nfWB9XHJcbiAgICAgICAgb25DbGljaz17KCkgPT4gc2V0VG9nZ2xlKHRydWUpfVxyXG4gICAgICA+XHJcbiAgICAgICAgPGkgY2xhc3NOYW1lPVwiZmEgZmEtY29nXCIgLz5cclxuICAgICAgPC9kaXY+Ki99XHJcbiAgICA8L0ZyYWdtZW50PlxyXG4gICk7XHJcbn07XHJcbmV4cG9ydCBkZWZhdWx0IFN3aXRjaGVyO1xyXG4iXSwibmFtZXMiOlsiSGVhZCIsIkZyYWdtZW50IiwidXNlU3RhdGUiLCJjb2xvcnMiLCJpZCIsIm5hbWUiLCJTd2l0Y2hlciIsImNvbG9yIiwic2V0Q29sb3IiLCJ0b2dnbGUiLCJzZXRUb2dnbGUiLCJsaW5rIiwicmVsIiwiaHJlZiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/components/Switcher.js\n");
+
+/***/ }),
+
+/***/ "./styles/globals.css":
+/*!****************************!*\
+  !*** ./styles/globals.css ***!
+  \****************************/
 /***/ (() => {
 
 
 
 /***/ }),
 
-/***/ 6689:
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/head");
+
+/***/ }),
+
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
 /***/ ((module) => {
 
 "use strict";
@@ -173,11 +88,14 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ 997:
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("react/jsx-runtime");
+module.exports = require("react/jsx-dev-runtime");
 
 /***/ })
 
@@ -188,7 +106,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(1592));
+var __webpack_exports__ = (__webpack_exec__("./pages/_app.js"));
 module.exports = __webpack_exports__;
 
 })();
