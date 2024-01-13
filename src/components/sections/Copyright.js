@@ -38,6 +38,11 @@ const Copyright = () => {
               <i class="fa-brands fa-spotify" />
             </a>
           </li>
+          <li>
+            <a href="https://wa.me/923245187873" target="_blank">
+              <i class="fa-brands fa-whatsapp" />
+            </a>
+          </li>
         </ul>
       </div>
     </section>

@@ -49,7 +49,7 @@ const Contact = () => {
           {/* CONTACT ITEM STARTS */}
           <div className="animated-layer fade-in-up-animation fadeInUp wow">
             <i className="fa fa-share-nodes" />
-            <span className="small-text">follow me</span>
+            <span className="small-text">Find me</span>
             <ul className="social">
               <li>
                 <a
@@ -75,6 +75,11 @@ const Contact = () => {
                   target="_blank"
                 >
                   <i class="fa-brands fa-spotify" />
+                </a>
+              </li>
+              <li>
+                <a href="https://wa.me/923245187873" target="_blank">
+                  <i class="fa-brands fa-whatsapp" />
                 </a>
               </li>
             </ul>
