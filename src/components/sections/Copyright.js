@@ -16,23 +16,26 @@ const Copyright = () => {
         </span>
         <ul>
           <li>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/bilalbinyar/" target="_blank">
+              <i class="fa-brands fa-linkedin-in" />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/bilalbinyaar" target="_blank">
               <i className="fa-brands fa-github" />
             </a>
           </li>
           <li>
-            <a href="#">
-              <i className="fa-brands fa-twitter" />
+            <a href="https://www.youtube.com/@BilalBinYar" target="_blank">
+              <i class="fa-brands fa-youtube" />
             </a>
           </li>
           <li>
-            <a href="#">
-              <i className="fa-brands fa-dribbble" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i className="fa-brands fa-facebook" />
+            <a
+              href="https://open.spotify.com/artist/4tcrYMxcZ4z2oAh68Cq9zq?si=4K_x8pp8TfaWLOiZyUp30w"
+              target="_blank"
+            >
+              <i class="fa-brands fa-spotify" />
             </a>
           </li>
         </ul>
