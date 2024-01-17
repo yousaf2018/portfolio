@@ -20,7 +20,7 @@ const Blog = () => {
         <div className="animated-layer fade-in-right-animation fadeInUp wow">
           <iframe
             title="Bilal Bin Yar"
-            src="https://open.spotify.com/embed/track/3lZseBKc2J57NLA55WI7Pw?utm_source=generator"
+            src="https://open.spotify.com/embed/track/5GivuLXbz1q21CQJEfxQQc?utm_source=generator"
             // width="100%"
             height="352"
             // frameBorder="0"
@@ -33,6 +33,18 @@ const Blog = () => {
           <iframe
             title="Bilal Bin Yar"
             src="https://open.spotify.com/embed/track/6ggMhVUD3WzPkFhXFVNQ8F?utm_source=generator"
+            // width="100%"
+            height="352"
+            // frameBorder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          ></iframe>
+        </div>
+
+        <div className="animated-layer fade-in-right-animation fadeInUp wow">
+          <iframe
+            title="Bilal Bin Yar"
+            src="https://open.spotify.com/embed/track/3lZseBKc2J57NLA55WI7Pw?utm_source=generator"
             // width="100%"
             height="352"
             // frameBorder="0"
