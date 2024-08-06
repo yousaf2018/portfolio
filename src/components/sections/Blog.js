@@ -43,7 +43,7 @@ const Blog = () => {
 
         <div className="animated-layer fade-in-right-animation fadeInUp wow">
           <iframe
-            title="Bilal Bin Yar"
+            title="25 Years"
             src="https://open.spotify.com/embed/track/3lZseBKc2J57NLA55WI7Pw?utm_source=generator"
             // width="100%"
             height="352"
