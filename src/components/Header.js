@@ -31,7 +31,7 @@ const Header = () => {
         {/* FREELANCE STARTS */}
         <div className="mail">
           <p>
-            Email :<span> bilalbinyaar@gmail.com</span>
+            Email :<span> mahmoodyousaf975974@gmail.com</span>
           </p>
         </div>
         {/* FREELANCE ENDS */}

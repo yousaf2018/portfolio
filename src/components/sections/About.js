@@ -21,12 +21,12 @@ const About = () => {
           <h2>
             <span>
               <span className="animated-layer fade-in-up-animation fadeInUp wow">
-                Bilal
+                Mahmood
               </span>
             </span>
             <span>
               <span className="animated-layer fade-in-up-animation fadeInUp wow">
-                Bin Yar
+              Yousaf
               </span>
             </span>
           </h2>
@@ -78,7 +78,7 @@ const About = () => {
                 <span>
                   <span className="animated-layer fade-in-up-animation fadeInUp wow">
                     <span>Phone :</span>
-                    <span>+92 324 5187873</span>
+                    <span>+92 334 6966320</span>
                   </span>
                 </span>
               </li>
@@ -86,15 +86,15 @@ const About = () => {
                 <span>
                   <span className="animated-layer fade-in-up-animation fadeInUp wow">
                     <span>Email :</span>
-                    <span>bilalbinyaar@gmail.com</span>
+                    <span>mahmoodyousaf975974@gmail.com</span>
                   </span>
                 </span>
               </li>
               <li>
                 <span>
                   <span className="animated-layer fade-in-up-animation fadeInUp wow">
-                    <span>Skype :</span>
-                    <span>bilalbinyar</span>
+                    <span>Github :</span>
+                    <span>yousaf2018</span>
                   </span>
                 </span>
               </li>
