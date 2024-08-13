@@ -125,9 +125,9 @@ const About = () => {
             {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-down-animation fadeInLeft wow">
               <span>
-                <i className="devicon-react-plain" />
+              <i class="devicon-python-plain"></i>
               </span>
-              <h4>React JS</h4>
+              <h4>Python</h4>
             </div>
             {/* SKILL ITEM ENDS */}
             {/* SKILL ITEM STARTS */}
@@ -161,17 +161,17 @@ const About = () => {
             {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-down-animation fadeInLeft wow">
               <span>
-                <i className="devicon-nextjs-original" />
+              <i class="devicon-tensorflow-original"></i>
               </span>
-              <h4>Next JS</h4>
+              <h4>Tensorflow</h4>
             </div>
             {/* SKILL ITEM ENDS */}
             {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-up-animation fadeInRight wow">
               <span>
-                <i className="devicon-vuejs-plain" />
+              <i class="devicon-numpy-plain"></i>
               </span>
-              <h4>Vue JS</h4>
+              <h4>Numpy</h4>
             </div>
             {/* SKILL ITEM ENDS */}
           </div>
@@ -181,15 +181,15 @@ const About = () => {
               <span>
                 <i className="devicon-express-original" />
               </span>
-              <h4>Express JS</h4>
+              <h4>ExpressJS</h4>
             </div>
             {/* SKILL ITEM ENDS */}
             {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-up-animation fadeInRight wow">
               <span>
-                <i className="devicon-wordpress-plain" />
+                <i className="devicon-pandas-plain" />
               </span>
-              <h4>WordPress</h4>
+              <h4>Pandas</h4>
             </div>
             {/* SKILL ITEM ENDS */}
           </div>
@@ -197,17 +197,17 @@ const About = () => {
             {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-down-animation fadeInLeft wow">
               <span>
-                <i className="devicon-threejs-original" />
+              <i class="devicon-docker-plain-wordmark"></i>
               </span>
-              <h4>Three JS</h4>
+              <h4>Docker</h4>
             </div>
             {/* SKILL ITEM ENDS */}
             {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-up-animation fadeInRight wow">
               <span>
-                <i className="devicon-jquery-plain" />
+              <i class="devicon-kubernetes-plain"></i>
               </span>
-              <h4>jQuery</h4>
+              <h4>Kubernetes</h4>
             </div>
             {/* SKILL ITEM ENDS */}
           </div>
@@ -215,9 +215,9 @@ const About = () => {
             {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-down-animation fadeInLeft wow">
               <span>
-                <i className="devicon-materialui-plain" />
+              <i class="devicon-android-plain"></i>
               </span>
-              <h4>MaterialUI</h4>
+              <h4>Android</h4>
             </div>
             {/* SKILL ITEM ENDS */}
             {/* SKILL ITEM STARTS */}
@@ -233,20 +233,101 @@ const About = () => {
             {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-down-animation fadeInLeft wow">
               <span>
-                <i className="devicon-tailwindcss-plain" />
+              <i class="devicon-googlecloud-plain"></i>
               </span>
-              <h4>Tailwind</h4>
+              <h4>GCP</h4>
             </div>
             {/* SKILL ITEM ENDS */}
             {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-up-animation fadeInRight wow">
               <span>
-                <i className="devicon-bootstrap-plain" />
+              <i class="devicon-javascript-plain"></i>
               </span>
-              <h4>Bootstrap</h4>
+              <h4>Javascript</h4>
             </div>
             {/* SKILL ITEM ENDS */}
           </div>
+          <div>
+            {/* SKILL ITEM STARTS */}
+            <div className="animated-layer fade-in-down-animation fadeInLeft wow">
+              <span>
+              <i class="devicon-html5-plain"></i>
+              </span>
+              <h4>HTML</h4>
+            </div>
+            {/* SKILL ITEM ENDS */}
+            {/* SKILL ITEM STARTS */}
+            <div className="animated-layer fade-in-up-animation fadeInRight wow">
+              <span>
+              <i class="devicon-java-plain"></i>
+              </span>
+              <h4>Java</h4>
+            </div>
+            {/* SKILL ITEM ENDS */}
+          </div>
+
+
+
+          <div>
+            {/* SKILL ITEM STARTS */}
+            <div className="animated-layer fade-in-down-animation fadeInLeft wow">
+              <span>
+              <i class="devicon-css3-plain"></i>
+              </span>
+              <h4>CSS</h4>
+            </div>
+            {/* SKILL ITEM ENDS */}
+            {/* SKILL ITEM STARTS */}
+            <div className="animated-layer fade-in-up-animation fadeInRight wow">
+              <span>
+              <i class="devicon-amazonwebservices-plain-wordmark"></i>
+              </span>
+              <h4>AWS</h4>
+            </div>
+            {/* SKILL ITEM ENDS */}
+          </div>
+
+
+          <div>
+            {/* SKILL ITEM STARTS */}
+            <div className="animated-layer fade-in-down-animation fadeInLeft wow">
+              <span>
+              <i class="devicon-arduino-plain"></i>
+              </span>
+              <h4>Arduino</h4>
+            </div>
+            {/* SKILL ITEM ENDS */}
+            {/* SKILL ITEM STARTS */}
+            <div className="animated-layer fade-in-up-animation fadeInRight wow">
+              <span>
+              <i class="devicon-cplusplus-plain"></i>
+              </span>
+              <h4>C++</h4>
+            </div>
+            {/* SKILL ITEM ENDS */}
+          </div>
+
+
+
+          <div>
+            {/* SKILL ITEM STARTS */}
+            <div className="animated-layer fade-in-down-animation fadeInLeft wow">
+              <span>
+              <i class="devicon-postgresql-plain"></i>
+              </span>
+              <h4>Postgresql</h4>
+            </div>
+            {/* SKILL ITEM ENDS */}
+            {/* SKILL ITEM STARTS */}
+            <div className="animated-layer fade-in-up-animation fadeInRight wow">
+              <span>
+              <i class="devicon-ubuntu-plain"></i>
+              </span>
+              <h4>ubuntu</h4>
+            </div>
+            {/* SKILL ITEM ENDS */}
+          </div>
+
         </div>
       </div>
       {/* SKILLS ENDS */}
