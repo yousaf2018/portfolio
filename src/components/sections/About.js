@@ -1,4 +1,5 @@
 const About = () => {
+  //Hello
   return (
     <section className="about main-section flex-column-mobile" id="about">
       {/* INFO HOLDER STARTS */}
