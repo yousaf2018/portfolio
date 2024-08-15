@@ -321,9 +321,9 @@ const About = () => {
             {/* SKILL ITEM STARTS */}
             <div className="animated-layer fade-in-up-animation fadeInRight wow">
               <span>
-              <i class="devicon-ubuntu-plain"></i>
+              <i class="devicon-flask-original"></i>
               </span>
-              <h4>ubuntu</h4>
+              <h4>Flask</h4>
             </div>
             {/* SKILL ITEM ENDS */}
           </div>
@@ -356,7 +356,7 @@ const About = () => {
                   <h4>Full Stack AI Engineer</h4>
                   <p>
                     <i className="fa-regular fa-clock" />
-                    <span>2023 - Present</span>
+                    <span>From 01-06-2023 To Present</span>
                   </p>
                   <p>
                     <i className="fa-regular fa-building" />
@@ -371,7 +371,7 @@ const About = () => {
                   <h4>Reseach Assistant</h4>
                   <p>
                     <i className="fa-regular fa-clock" />
-                    <span>2024 - 2024</span>
+                    <span>From 01-03-2024 To 01-06-2024</span>
                   </p>
                   <p>
                     <i className="fa-regular fa-building" />
@@ -388,7 +388,7 @@ const About = () => {
                   <h4>AI Engineer</h4>
                   <p>
                     <i className="fa-regular fa-clock" />
-                    <span>2022 - 2023</span>
+                    <span>From 01-06-2022 To 01-06-2022</span>
                   </p>
                   <p>
                     <i className="fa-regular fa-building" />
@@ -405,7 +405,7 @@ const About = () => {
                   <h4>Research Assistant</h4>
                   <p>
                     <i className="fa-regular fa-clock" />
-                    <span>2021 - 2022</span>
+                    <span>From 01-06-2021 To 01-05-2022</span>
                   </p>
                   <p>
                     <i className="fa-regular fa-building" />
@@ -422,7 +422,7 @@ const About = () => {
                   <h4>AI Intern</h4>
                   <p>
                     <i className="fa-regular fa-clock" />
-                    <span>2021 - 2022</span>
+                    <span>From 01-10-2021 To 30-11-2022</span>
                   </p>
                   <p>
                     <i className="fa-regular fa-building" />

@@ -22,7 +22,7 @@ const Contact = () => {
             <i className="fa fa-phone" />
             <p>
               <span className="small-text">phone</span>
-              +92 324 5187873
+              +92 334 6966320
             </p>
           </div>
           {/* CONTACT ITEM ENDS */}
@@ -42,7 +42,7 @@ const Contact = () => {
             <i className="fa fa-envelope" />
             <p>
               <span className="small-text">email</span>
-              bilalbinyaar@gmail.com
+              mahmoodyousaf975974@gmail.com
             </p>
           </div>
           {/* CONTACT ITEM ENDS */}
@@ -53,32 +53,21 @@ const Contact = () => {
             <ul className="social">
               <li>
                 <a
-                  href="https://www.linkedin.com/in/bilalbinyar/"
+                  href="https://pk.linkedin.com/in/mahmood-yousaf"
                   target="_blank"
                 >
                   <i class="fa-brands fa-linkedin-in" />
                 </a>
               </li>
               <li>
-                <a href="https://github.com/bilalbinyaar" target="_blank">
+                <a href="https://github.com/yousaf2018" target="_blank">
                   <i className="fa-brands fa-github" />
                 </a>
               </li>
+           
+           
               <li>
-                <a href="https://www.youtube.com/@BilalBinYar" target="_blank">
-                  <i class="fa-brands fa-youtube" />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://open.spotify.com/artist/4tcrYMxcZ4z2oAh68Cq9zq?si=4K_x8pp8TfaWLOiZyUp30w"
-                  target="_blank"
-                >
-                  <i class="fa-brands fa-spotify" />
-                </a>
-              </li>
-              <li>
-                <a href="https://wa.me/923245187873" target="_blank">
+                <a href="https://wa.me/923346966320" target="_blank">
                   <i class="fa-brands fa-whatsapp" />
                 </a>
               </li>
