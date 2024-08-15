@@ -388,7 +388,7 @@ const About = () => {
                   <h4>AI Engineer</h4>
                   <p>
                     <i className="fa-regular fa-clock" />
-                    <span>From 01-06-2022 To 01-06-2022</span>
+                    <span>From 01-06-2022 To 01-06-2023</span>
                   </p>
                   <p>
                     <i className="fa-regular fa-building" />
